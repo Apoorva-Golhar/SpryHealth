@@ -6,7 +6,11 @@
       <class name="com.spryhealth.testcases.CheckPNRTest">
         <methods>
           <include name="setUp"/>
+          <include name="checkInvalidPNR3"/>
+          <include name="checkInvalidPNR2"/>
           <include name="tearDown"/>
+          <include name="checkInvalidPNR"/>
+          <include name="checkInvalidPNR4"/>
           <include name="setupSuite"/>
           <include name="checkvalidPNR2"/>
         </methods>

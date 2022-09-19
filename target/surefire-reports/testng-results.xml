@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9084" started-at="2022-09-19T15:13:04Z" finished-at="2022-09-19T15:13:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9084" started-at="2022-09-19T15:13:04Z" finished-at="2022-09-19T15:13:13Z">
+      <class name="com.spryhealth.testcases.CheckPNRTest">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.spryhealth.testcases.CheckPNRTest@75f32542]" name="setupSuite" is-config="true" duration-ms="588" started-at="2022-09-19T15:13:04Z" finished-at="2022-09-19T15:13:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.spryhealth.testcases.CheckPNRTest@75f32542]" name="setUp" is-config="true" duration-ms="6024" started-at="2022-09-19T15:13:04Z" finished-at="2022-09-19T15:13:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkvalidPNR()[pri:1, instance:com.spryhealth.testcases.CheckPNRTest@75f32542]" name="checkvalidPNR" duration-ms="1075" started-at="2022-09-19T15:13:10Z" finished-at="2022-09-19T15:13:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkvalidPNR -->
+        <test-method status="PASS" signature="checkInvalidPNR()[pri:2, instance:com.spryhealth.testcases.CheckPNRTest@75f32542]" name="checkInvalidPNR" duration-ms="229" started-at="2022-09-19T15:13:12Z" finished-at="2022-09-19T15:13:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInvalidPNR -->
+        <test-method status="PASS" signature="checkInvalidPNR2()[pri:3, instance:com.spryhealth.testcases.CheckPNRTest@75f32542]" name="checkInvalidPNR2" duration-ms="197" started-at="2022-09-19T15:13:12Z" finished-at="2022-09-19T15:13:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInvalidPNR2 -->
+        <test-method status="PASS" signature="checkInvalidPNR3()[pri:4, instance:com.spryhealth.testcases.CheckPNRTest@75f32542]" name="checkInvalidPNR3" duration-ms="176" started-at="2022-09-19T15:13:12Z" finished-at="2022-09-19T15:13:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInvalidPNR3 -->
+        <test-method status="PASS" signature="checkInvalidPNR4()[pri:5, instance:com.spryhealth.testcases.CheckPNRTest@75f32542]" name="checkInvalidPNR4" duration-ms="194" started-at="2022-09-19T15:13:12Z" finished-at="2022-09-19T15:13:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInvalidPNR4 -->
+        <test-method status="PASS" signature="checkvalidPNR2()[pri:6, instance:com.spryhealth.testcases.CheckPNRTest@75f32542]" name="checkvalidPNR2" duration-ms="468" started-at="2022-09-19T15:13:12Z" finished-at="2022-09-19T15:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkvalidPNR2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.spryhealth.testcases.CheckPNRTest@75f32542]" name="tearDown" is-config="true" duration-ms="687" started-at="2022-09-19T15:13:13Z" finished-at="2022-09-19T15:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.spryhealth.testcases.CheckPNRTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

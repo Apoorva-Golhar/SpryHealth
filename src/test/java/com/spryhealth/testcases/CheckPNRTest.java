@@ -9,6 +9,7 @@ import com.spryhealth.pages.CheckPNR;
 
 public class CheckPNRTest extends BaseClass {
 
+	// Checking valid 10 digit PNR number
 	@Test(priority = 1)
 	public void checkvalidPNR() {
 
@@ -24,6 +25,7 @@ public class CheckPNRTest extends BaseClass {
 
 	}
 
+	// Checking Invalid 4 digit PNR number
 	@Test(priority = 2)
 	public void checkInvalidPNR() {
 
@@ -41,6 +43,7 @@ public class CheckPNRTest extends BaseClass {
 		checkpnr.clearInput();
 	}
 
+	// Checking Invalid more than 10 digit PNR number
 	@Test(priority = 3)
 	public void checkInvalidPNR2() {
 
@@ -58,6 +61,7 @@ public class CheckPNRTest extends BaseClass {
 		checkpnr.clearInput();
 	}
 
+	// Checking Invalid alphabetic PNR number
 	@Test(priority = 4)
 	public void checkInvalidPNR3() {
 
@@ -75,6 +79,7 @@ public class CheckPNRTest extends BaseClass {
 		checkpnr.clearInput();
 	}
 
+	// Checking Invalid alphanumeric PNR number
 	@Test(priority = 5)
 	public void checkInvalidPNR4() {
 
@@ -92,6 +97,7 @@ public class CheckPNRTest extends BaseClass {
 		checkpnr.clearInput();
 	}
 
+	// Checking valid 10 digit PNR number
 	@Test(priority = 6)
 	public void checkvalidPNR2() {
 
